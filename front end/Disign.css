@@ -1,0 +1,46 @@
+body{
+    background-color: #D3D3D3;
+    color: 	#000000;
+    justify-content: center;
+}
+
+h1{
+    font-family: verdana;
+    text-align: center;
+    color: 	#000000;
+}
+
+fieldset{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: 	#696969;
+    box-shadow: 2px 2px 2px gray;
+}
+
+input, select, textarea{
+    border-radius:  4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+
+}
+button[type="reset"]{
+    background-color: 	#A52A2A;
+}
+#limpar{
+    color: white;
+}
+button[type="submit"]{
+    background-color: green;
+}
+#enviar{
+    color: white;
+}

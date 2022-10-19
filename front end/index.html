@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Design Perfect</title>
+    <link rel="stylesheet" type="text/css" href="Disign.css" media="screen">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <div>
+                <h1>Ensira os seus dados</h1>
+            </div>
+        </fieldset>
+    </form><br>
+    <form>
+        <fieldset>
+            <div>
+                
+                <br>
+                <label id="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"><br><br>
+                <button type="reset" id="limpar">limpar</button><br><br>
+                <label>Data de Nascimento:</label><br><br>
+                <input type="date" name="Data de Nascimento" id="Data de Nascimento"><br><br>
+                <button type="reset" id="limpar">limpar</button><br><br>
+                <label>Endereço:</label>
+                <input type="text" name="Endereço" id="Endereço"><br><br>
+                <button type="reset" id="limpar">limpar</button><br><br>
+                <label>Numero:</label>
+                <input type="text" name="Numero" id="Numero"><br><br>
+                <button type="reset" id="limpar">limpar</button><br><br>
+                <label>Cidade:</label>
+                <input type="text" name="Cidade" id="Cidade"><br><br>
+                <button type="reset" id="limpar">limpar</button><br><br>
+
+                <!-- passar pra area de seleçao, isso e um lembrete-->
+
+
+            </div>
+            <div>
+                <label>Estado:</label>
+                <select id="selecione">
+                    <option value="">selecione</option>
+                    <option>Piaui</option>
+                    <option>Ceara</option>
+                    <option>Bahia</option>
+                    <option>Pernambuco</option>
+                    <option>Maranhao</option>
+                    <option>Sergipe</option>
+                </select><br><br>
+
+                <label>Sexo:</label>
+                <select id="selecione">
+                    <option value="">selecione</option>
+                    <option>Masculino</option>
+                    <option>Feminio</option>
+                    <option>Outro</option>
+
+                    <!--passar pro box-->
+
+                </select><br><br>
+
+                <label>Bens Pessoas:</label>
+                <br><br>
+                <input type="checkbox" id="Casa" name="Casa" value="Casa">
+                <label for="Casa">Casa</label>
+                <br>
+                <input type="checkbox" id="Carro" name="Carro" value="Carro">
+                <label for="Carro">Carro</label>
+                <br>
+                <input type="checkbox" id="Moto" name="Moto" value="Moto">
+                <label for="Moto">Moto</label>
+                <br><br>
+
+                <!--passar pra text area-->
+                
+
+                <label>Descreva:</label><br>
+                <br>
+                <textarea rows="8" style="width: 30em;" id="Descreva" name="Descreva">Experiências pessoais</textarea>
+                <br>
+
+                <button type="submit" id="enviar">enviar</button>
+                <button type="reset" id="limpar">limpar</button>
+           
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
